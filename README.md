@@ -60,9 +60,7 @@ python src/main.py
 When prompted, type your question, e.g.:
 ```
 Summarize the methodology for calculating Expected Shortfall as described in my papers, and explain how it differs from Value at Risk.
-```
 
----
 
 ## How it works
 
