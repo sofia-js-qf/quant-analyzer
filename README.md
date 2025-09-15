@@ -1,8 +1,8 @@
 
 # Quant Analyzer — Retrieval‑Augmented PDF Question Answering
 
-This project allows you to **ask natural language questions about your own research papers** and receive answers grounded in the actual text of those documents.  
-
+This project allows you to **ask natural language questions about your own research papers** and receive answers grounded in the actual text of those documents. 
+I would like to highlight that this is the result of an AI‑assisted development workflow, showcasing how modern AI tools can accelerate the creation of functional, domain‑specific applications.
 It combines **semantic search** (FAISS) with a **text generation model** to create a Retrieval‑Augmented Generation (RAG) pipeline.
 
 ---
@@ -82,8 +82,8 @@ Summarize the methodology for calculating Expected Shortfall as described in my 
 
 ## 📌 Notes
 
-- First run of `--full` mode will download the GPT‑Neo 1.3B weights (~5 GB).
 - Retrieval quality depends on the clarity of your question and the quality of your PDF text extraction.
 - For deployment, you can run locally, in Docker, or adapt to a web UI (e.g., Streamlit).
+
 
 
