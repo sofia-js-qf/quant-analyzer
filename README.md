@@ -54,14 +54,7 @@ python src/retrieval/ingest.py
 
 ### 2. Ask questions
 
-**Fast mode** (quick tests):
-```bash
-python src/main.py --fast
-```
-
-**Full mode** (larger context window):
-```bash
-python src/main.py --full
+python src/main.py 
 ```
 
 When prompted, type your question, e.g.:
@@ -94,4 +87,5 @@ Summarize the methodology for calculating Expected Shortfall as described in my 
 - First run of `--full` mode will download the GPT‑Neo 1.3B weights (~5 GB).
 - Retrieval quality depends on the clarity of your question and the quality of your PDF text extraction.
 - For deployment, you can run locally, in Docker, or adapt to a web UI (e.g., Streamlit).
+
 
